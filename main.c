@@ -4,12 +4,15 @@
 void nhapDaySo(int a[], int n);
 
 // Hàm xuất dãy số
-void xuatDaySo(int a[], int n){
-    printf(" Day do : ")
-    for(int i = 0; i<n ; i++){
-        printf("/t",a[i]);
+
+void xuatDaySo(int a[], int n) {
+    printf("Day so: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d\t", a[i]);
     }
+    printf("\n");
 }
+
 
 // Hàm sắp xếp dãy số tăng dần (Sử dụng thuật toán Interchange Sort)
 void sapXepTangDan(int a[], int n);
